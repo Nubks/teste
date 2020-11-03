@@ -37,7 +37,7 @@ adicionar.addEventListener('click',()=>{
         div.appendChild(addTexto);
 
 
-        if(tituloInput != "" && text != ""){
+        if(tituloInput != "" || text != ""){
         input.remove();
         textarea.remove();
         document.getElementById('adicionarTexto').remove();
